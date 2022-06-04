@@ -26,18 +26,33 @@
 <div class="container mb-5 mt-5" id="postagens">
     <nav>
       <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
-        <a class="nav-item nav-link active text-secondary font-weight-bold" id="nav-todasPostagens-tab" data-toggle="tab" href="#todasPostagens" role="tab"
-          aria-controls="nav-todasPostagens" aria-selected="true">Todas as postagens</a>
-        <a class="nav-item nav-link text-secondary font-weight-bold" id="nav-minhasPostagens-tab" data-toggle="tab" href="#minhasPostagens" role="tab"
-          aria-controls="nav-minhasPostagens" aria-selected="false">Minhas postagens</a>
-        <a class="nav-item nav-link text-secondary font-weight-bold" id="nav-porTema-tab" data-toggle="tab" href="#porTema" role="tab"
-          aria-controls="nav-porTema" aria-selected="false">Postagens por tema</a>
+        
+        <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
+
+          <a class="nav-item nav-link active text-secondary font-weight-bold"
+            id="nav-todasPostagens-tab" data-toggle="tab" href="#todasPostagens" role="tab"
+            aria-controls="nav-todasPostagens" aria-selected="true">Todas as Postagens</a>
+    
+    
+          <a class="nav-item nav-link text-secondary font-weight-bold" id="nav-minhasPostagens-tab" data-toggle="tab"
+            href="#minhasPostagens" role="tab" aria-controls="nav-minhasPostagens" aria-selected="false">Minhas
+            Postagens</a>
+    
+          <a class="nav-item nav-link text-secondary font-weight-bold"
+            id="nav-postagemTema-tab" data-toggle="tab" href="#postagemTema" role="tab" aria-controls="nav-postagemTema"
+            aria-selected="false">Postagens por tema</a>
+    
+        </div>
+
       </div>
     </nav>
+
     <div class="tab-content" id="nav-tabContent">
+
       <div class="tab-pane fade show active" id="todasPostagens" role="tabpanel" aria-labelledby="nav-todasPostagens-tab">Todas as postagens</div>
       <div class="tab-pane fade" id="minhasPostagens" role="tabpanel" aria-labelledby="nav-minhasPostagens-tab">Minhas postagens</div>
-      <div class="tab-pane fade" id="porTema" role="tabpanel" aria-labelledby="nav-porTema-tab">Por tema</div>
+
+      <div class="tab-pane fade" id="postagemTema" role="tabpanel" aria-labelledby="nav-postagemTema-tab">Por tema</div>
     </div>
   </div>
   <!-- /Menu Postagens -->
